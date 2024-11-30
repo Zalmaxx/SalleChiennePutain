@@ -5,3 +5,7 @@ resources:
   - ../../base
 
 namespace: prod
+
+images:
+  - name: gcr.io/heptio-images/ks-guestbook-demo
+    newTag: "0.2"
