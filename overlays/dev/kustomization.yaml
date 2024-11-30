@@ -8,4 +8,4 @@ namespace: dev
 
 images:
   - name: gcr.io/heptio-images/ks-guestbook-demo
-    newTag: "0.3"
+    newTag: "0.2"
