@@ -18,3 +18,9 @@ spec:
           name: guestbook-ui
           ports:
             - containerPort: 80
+#          env: Permet de mettre des variables d'env dans tous les overlays
+#            - name: API_URL
+#              valueFrom:
+#                configMapKeyRef:
+#                  name: guestbook-cm
+#                  key: API_URL

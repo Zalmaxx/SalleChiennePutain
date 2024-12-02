@@ -9,3 +9,10 @@ namespace: dev
 images:
   - name: gcr.io/heptio-images/ks-guestbook-demo
     newTag: "0.2"
+
+# Références au fichier de patch
+patches:
+  - path: patch-deployment.yaml
+    target:
+      kind: Deployment
+      name: guestbook-ui
