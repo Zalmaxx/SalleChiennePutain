@@ -6,3 +6,5 @@
         configMapKeyRef:
           name: guestbook-cm
           key: API_URL
+    - name: ENV
+      value: "dev"
